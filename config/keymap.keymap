@@ -39,8 +39,8 @@
             bindings = <
 &trans  &kp N1  &kp N2  &kp N3  &kp N4   &kp N5                   &kp N6   &kp N7                &kp N8          &kp N9            &kp N0             &kp GRAVE
 &trans  &kp F1  &kp F2  &kp F3  &kp F4   &kp F5                   &kp F6   &kp MINUS             &kp EQUAL       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
-&trans  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &trans  &trans  &kp F12  &kp LS(LA(NUMBER_2))  &kp LS(LA(N5))  &kp PG_DN         &kp PG_UP          &trans
-&trans  &trans  &trans  &trans  &trans   &trans   &trans  &trans  &trans   &trans                &trans          &kp C_VOL_DN      &kp C_VOL_UP       &kp C_PP
+&trans  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &trans  &trans  &kp F12  &kp LS(LG(NUMBER_2))  &kp LS(LG(N5))  &trans            &trans             &trans
+&trans  &trans  &trans  &trans  &trans   &trans   &trans  &trans  &trans   &trans                &trans          &kp C_VOL_DN      &kp C_VOL_UP       &trans
             >;
         };
 
@@ -55,10 +55,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans                        &trans  &trans  &trans  &mo 5     &mkp MB1   &mkp MB2
-&trans  &trans  &trans  &trans  &trans    &trans                        &trans  &trans  &trans  &trans    &kp UP     &trans
-&trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans  &trans  &trans  &trans  &kp LEFT  &kp RIGHT  &trans
-&trans  &trans  &trans  &trans  &mkp MB1  &mkp MCLK  &mkp RCLK  &trans  &trans  &trans  &trans  &trans    &kp DOWN   &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &mo 5     &mkp MB1   &mkp MB2
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans    &kp UP     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp DOWN   &trans
             >;
         };
 
